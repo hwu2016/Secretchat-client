@@ -1,0 +1,16 @@
+.input {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: none;
+    text-align: center;
+    background-color: #4B434A;
+    border-radius: 5px;
+    caret-color: #EE5EDD;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input:focus {
+    border: none; 
+}
