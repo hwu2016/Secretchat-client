@@ -2,7 +2,6 @@ import CURR_VERSION from '../../config/version.json'
 import Button from '../../common/Button';
 import Input from '../../common/Input';
 import { Link, useNavigate} from 'react-router-dom';
-const ipcRenderer = window.ipcRenderer
 
 /**
  *  登陆组件 Login
@@ -11,8 +10,7 @@ export default function Login() {
     const navigate = useNavigate();
 
     const login = () => {
-        navigate('/main')
-        ipcRenderer.send('login')
+        navigate('/identity')
     }
 
     return (

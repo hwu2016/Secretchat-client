@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     background-color: darkslateblue;
     width: 100%;
@@ -11,12 +16,8 @@ html {
     justify-content: center;
 }
 
-.draggable-region {
-    position: absolute;
-    width: 100vw;
-    height: 50px;
-    top: 0;
-    -webkit-app-region: drag;
+body {
+    overflow: hidden;
 }
 
 .login-register-wrapper {
@@ -50,4 +51,8 @@ html {
 @keyframes fadein {
     from { opacity: 0.3; }
     to   { opacity: 1; }
+}
+
+.expand > *{
+    margin-bottom: 20px;
 }

@@ -12,7 +12,6 @@ function createWindow() {
     minHeight: 600,
     resizable: false,
     center: true,
-    titleBarStyle: 'hidden',
     webPreferences: {
       preload: path.join(__dirname, '/preload.js'),
       enableRemoteModule: true,
