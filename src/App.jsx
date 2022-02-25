@@ -15,7 +15,7 @@ export default function App() {
       <HashRouter>
         <Routes>
           <Route path='/' element={<Login/>} />
-          <Route path='/identity' element={<LoginIdentity/>}/>
+          <Route path='/identity/*' element={<LoginIdentity/>}/>
           <Route path='/register' element={<Register/>} />
           <Route path="/register/help" element={<RegisterHelp/>}/>
           <Route path='/main/:identity' element={<MainWindow/>}/>

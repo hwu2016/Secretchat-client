@@ -7,6 +7,6 @@ import ajax from './ajax';
  * @param User对象
  */
 
-export const register = (user) => ajax(BASE_URL + '/register', user, 'POST')
+export const registerUser = (user) => ajax(BASE_URL + '/user/register', user, 'POST')
 
-export const login = (user) => ajax(BASE_URL + '/login', user, 'POST')
+export const loginUser = (user) => ajax(BASE_URL + '/user/login', user, 'POST')
