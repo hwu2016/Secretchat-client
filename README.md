@@ -1,6 +1,8 @@
 # Secret Chat App - Client
 Stacks: React, Electron, RRD v6, self-designed common components
 
+not completed yet~~
+
 ## How to Use
 ```sh
 # clone the project to local 
